@@ -1,0 +1,12 @@
+.external-link:link {
+  color: orange;
+}
+.external-link:visited {
+  color: blue;
+}
+.external-link:hover {
+  color: red;
+}
+.external-link:active {
+  color: blue;
+}
