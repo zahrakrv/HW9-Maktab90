@@ -1,0 +1,18 @@
+.tooltip {
+  display: none;
+  background-color: yellow;
+  color: black;
+  position: absolute;
+  left: 50%;
+  top: 56%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+}
+#myDiv {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  margin-bottom: 5px;
+}
