@@ -11,7 +11,8 @@
   <body>
     <main class="container my-5 d-flex justify-content-between main">
       <section
-        class="first-section sec-1 p-5 rounded-5 overflow-auto d-flex flex-column justify-content-center"
+        id="parent-cards"
+        class="sec-1 col-md-12 p-5 rounded-5 overflow-auto d-flex flex-column justify-content-center"
       >
         <h1 class="text-center">رستوران مک دونالد شعبه تهران</h1>
         <hr />
@@ -349,7 +350,7 @@
               </div>
               <div class="col-md-9">
                 <div class="card-body">
-                  <h5 class="card-title">نوشابه رژیمی</h5>
+                  <h5 class="card-title fw-bold">نوشابه رژیمی</h5>
                   <p class="card-text fs-4 price">6000 تومان</p>
                   <div class="d-flex justify-content-between div-price">
                     <div class="d-flex">
@@ -395,7 +396,7 @@
               </div>
               <div class="col-md-9">
                 <div class="card-body">
-                  <h5 class="card-title">نوشابه</h5>
+                  <h5 class="card-title fw-bold">نوشابه</h5>
                   <p class="card-text fs-4 price">5000 تومان</p>
                   <div class="d-flex justify-content-between div-price">
                     <div class="d-flex">
@@ -443,7 +444,7 @@
               </div>
               <div class="col-md-9">
                 <div class="card-body">
-                  <h5 class="card-title">سالاد فصل</h5>
+                  <h5 class="card-title fw-bold">سالاد فصل</h5>
                   <p class="card-text fs-4 price">8000 تومان</p>
                   <div class="d-flex justify-content-between div-price">
                     <div class="d-flex">
@@ -489,7 +490,7 @@
               </div>
               <div class="col-md-9">
                 <div class="card-body">
-                  <h5 class="card-title">سالاد سزار</h5>
+                  <h5 class="card-title fw-bold">سالاد سزار</h5>
                   <p class="card-text fs-4 price">25000 تومان</p>
                   <div class="d-flex justify-content-between div-price">
                     <div class="d-flex">
@@ -525,9 +526,9 @@
           </div>
         </div>
       </section>
-      <div class="sec-2 card p-5 rounded-5 d-flex">
-        <div class="d-flex justify-content-lg-between">
-          <p class="fs-4">جمع کل سفارشات:</p>
+      <div class="sec-2 col-sm-12 card p-5 rounded-5 d-flex">
+        <div class="jam d-flex justify-content-lg-between">
+          <p class="pjam fs-4">جمع کل سفارشات:</p>
           <div id="total-price" class="fs-4">0 تومان</div>
         </div>
         <div class="d-flex justify-content-lg-between">

@@ -68,15 +68,29 @@ allFood.forEach((food, btn) => {
     ) {
       changeOrder(food, "add");
     }
+    // name();
   });
 });
+// function name() {
+//   let parentCard = document.getElementById("parent-cards");
+//   const all = Array.from(parentCard.querySelectorAll(".first-pric"));
+//   console.log(all);
+//   let b = all.map((item) => {
+//     console.log(parseInt(item.innerHTML));
+//   });
+//   [...b].reduce((a, b) => {
+//     console.log(+a + +b);
+//   });
+// }
+
 let arrorder = [];
+let accumulator = 0;
 function changeOrder(food, changeType) {
   let tedad = Number.parseInt(food.querySelector(".tedadd").textContent) || 0;
   let firstPrice = parseFloat(food.querySelector(".price").textContent);
-  console.log(tedad, firstPrice);
+  // console.log(tedad, firstPrice);
 
-  if (changeType === "minus" && tedad > 0) {
+  if (changeType === "minus" && tedad !== 0) {
     let order = tedad * firstPrice;
     arrorder.pop(order);
     let allPrice = arrorder.reduce((accumulator, currentValue) => {
@@ -86,12 +100,13 @@ function changeOrder(food, changeType) {
     tedad--;
   }
   if (changeType === "add") {
-    let order = tedad * firstPrice;
+    let order = firstPrice;
+    console.log(firstPrice);
     arrorder.push(order);
-    let allPrice = arrorder.reduce((accumulator, currentValue) => {
-      return accumulator + currentValue;
-    }, 0);
-    totalPrice.textContent = `${allPrice}  تومان`;
+    // let allPrice = arrorder.reduce((accumulator, currentValue) => {
+    //   return accumulator + currentValue;
+    // }, 0);
+    // totalPrice.textContent = `${allPrice}  تومان`;
 
     tedad++;
   }
@@ -100,14 +115,14 @@ function changeOrder(food, changeType) {
   food.querySelector(".first-pric").textContent = `${tedad * firstPrice} تومان`;
   let order = tedad * firstPrice;
   // console.log(order);
-  arrorder.push(order);
-  console.log(arrorder);
+  // arrorder.push(order);
+  // console.log(arrorder);
 
   ///end box
   let allPrice = arrorder.reduce((accumulator, currentValue) => {
     return accumulator + currentValue;
   }, 0);
-  console.log(allPrice);
+  // console.log(allPrice);
   totalPrice.textContent = `${allPrice}  تومان`;
 
   ///service

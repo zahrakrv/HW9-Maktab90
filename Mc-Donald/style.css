@@ -89,15 +89,18 @@ button {
   font-family: inherit;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 300px) and (max-width: 500px) {
   .main {
     flex-direction: column;
   }
-  .first-section {
+  .sec-1 {
     align-self: center;
   }
   .sec-2 {
     align-self: center;
     font-size: 1.4rem;
+  }
+  .pjam {
+    font-size: 1rem;
   }
 }
