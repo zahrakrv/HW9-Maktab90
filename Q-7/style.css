@@ -1,0 +1,12 @@
+#ul-list {
+  /* padding: 0.3rem; */
+  display: block;
+  position: absolute;
+  text-align: center;
+  left: 40px;
+}
+ul {
+  display: block;
+  font-size: 18px;
+  padding: 5px;
+}
