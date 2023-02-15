@@ -1,0 +1,45 @@
+*,
+*::before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  font-size: 62.5%;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box-1,
+.box-2 {
+  padding: 0 2rem;
+  font-size: 1.6rem;
+  width: 50rem;
+  background-color: hsl(83deg 51% 92%);
+  border-bottom: 2px solid hsl(86deg 48% 76%);
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+p {
+  margin-bottom: 2rem;
+}
+button {
+  border: none;
+  font-size: 1.8rem;
+  color: rgb(102, 24, 24);
+  font-weight: 600;
+  cursor: pointer;
+}
+.close {
+  display: none;
+}
