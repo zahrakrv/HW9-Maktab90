@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "vazir";
+  src: url("./HW9-tamrin2-1-assets/fonts/Vazir-Regular-FD.woff");
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+  /* height: 100%; */
+  font-size: 62.5%;
+}
+body {
+  font-family: "vazir";
+  width: 100%;
+  /* height: 100%; */
+  background-color: hsl(5deg 80% 48%);
+}
+.sec-1 {
+  background-color: hsl(212deg 100% 97%);
+  width: 65%;
+  height: 40%;
+}
+.sec-2 {
+  background-color: hsl(212deg 100% 97%);
+  width: 30%;
+  align-self: start;
+}
+hr {
+  height: 1rem;
+  color: rgb(170, 198, 230);
+}
+.img-food {
+  align-content: center;
+  width: 10rem;
+  height: 10rem;
+}
+/* .div-price {
+  width: ;
+} */
+.add-btn,
+.minus-btn {
+  width: 1.6rem;
+  height: 1.6rem;
+  border: none;
+}
+.minus-img,
+.add-img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.input-tedad {
+  height: 1.9rem;
+  background-color: hsl(212deg 100% 97%);
+}
+.input-off {
+  height: 5rem;
+}
+::placeholder {
+  font-size: 2rem;
+}
+.tick-btn {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+}
+.tick-img {
+  width: 2.3rem;
+  height: 2.3rem;
+}
+button {
+  cursor: pointer;
+}
+.mymodal {
+  text-align: center;
+  display: none;
+  width: 30rem;
+  height: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.taiid {
+  font-family: inherit;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    flex-direction: column;
+  }
+  .first-section {
+    align-self: center;
+  }
+  .sec-2 {
+    align-self: center;
+    font-size: 1.4rem;
+  }
+}

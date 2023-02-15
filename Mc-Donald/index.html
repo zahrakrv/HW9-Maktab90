@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MC-Donald</title>
+  </head>
+  <body>
+    <main class="container my-5 d-flex justify-content-between main">
+      <section
+        class="first-section sec-1 p-5 rounded-5 overflow-auto d-flex flex-column justify-content-center"
+      >
+        <h1 class="text-center">رستوران مک دونالد شعبه تهران</h1>
+        <hr />
+        <div class="d-flex justify-content-between mb-4">
+          <div class="card mb-2 rtl food-box" style="width: 325px">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="./HW9-tamrin2-1-assets/img/hamburger.png"
+                  class="img-fluid rounded-start img-food"
+                  alt="burger"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">همبرگر معمولی</h5>
+                  <div class="d-flex justify-content-start">
+                    <div
+                      id="p-price"
+                      class="card-text fs-4 ps-2 price"
+                      value="8000"
+                    >
+                      8000
+                    </div>
+                    <p class="fs-4">تومان</p>
+                  </div>
+                  <div class="d-flex justify-content-between div-price">
+                    <div class="d-flex">
+                      <button id="add-button" class="bg-danger rounded add-btn">
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/add.png"
+                          class="add-img"
+                        />
+                      </button>
+                      <div
+                        id="tedad"
+                        class="col-3 border-0 rounded input-tedad px-4 tedadd"
+                        style="width: 5rem"
+                      ></div>
+                      <!-- type="text" id="tedad"
+                        class="col-3 border-0 rounded input-tedad"
+                      /> -->
+                      <button
+                        id="minus-button"
+                        class="bg-danger rounded minus-btn"
+                      >
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/minus.png"
+                          class="minus-img"
+                        />
+                      </button>
+                    </div>
+                    <div id="first-price" class="fs-4 first-pric">0 تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------- -->
+          <div class="card mb-2 rtl food-box" style="width: 325px">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="./HW9-tamrin2-1-assets/img/hamburger.png"
+                  class="img-fluid rounded-start img-food"
+                  alt="burger"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">همبرگر مخصوص</h5>
+                  <div class="d-flex justify-content-start">
+                    <div
+                      id="p-price"
+                      class="card-text fs-4 ps-2 price"
+                      value="8000"
+                    >
+                      8000
+                    </div>
+                    <p class="fs-4">تومان</p>
+                  </div>
+                  <div class="d-flex justify-content-between div-price">
+                    <div class="d-flex">
+                      <button id="add-button" class="bg-danger rounded add-btn">
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/add.png"
+                          class="add-img"
+                        />
+                      </button>
+                      <div
+                        id="tedad"
+                        class="col-3 border-0 rounded input-tedad px-4 tedadd"
+                        style="width: 5rem"
+                      ></div>
+                      <!-- type="text" id="tedad"
+                        class="col-3 border-0 rounded input-tedad"
+                      /> -->
+                      <button
+                        id="minus-button"
+                        class="bg-danger rounded minus-btn"
+                      >
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/minus.png"
+                          class="minus-img"
+                        />
+                      </button>
+                    </div>
+                    <div id="first-price" class="fs-4 first-pric">0 تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- -------------row2------------- -->
+        <div class="d-flex justify-content-between mb-4">
+          <div class="card mb-2 rtl food-box" style="width: 325px">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="./HW9-tamrin2-1-assets/img/hamburger.png"
+                  class="img-fluid rounded-start img-food"
+                  alt="burger"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">
+                    همبرگر معمولی با قارچ و پنیر
+                  </h5>
+                  <div class="d-flex justify-content-start">
+                    <div
+                      id="p-price"
+                      class="card-text fs-4 ps-2 price"
+                      value="10000"
+                    >
+                      10000
+                    </div>
+                    <p class="fs-4">تومان</p>
+                  </div>
+                  <div class="d-flex justify-content-between div-price">
+                    <div class="d-flex">
+                      <button id="add-button" class="bg-danger rounded add-btn">
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/add.png"
+                          class="add-img"
+                        />
+                      </button>
+                      <div
+                        id="tedad"
+                        class="col-3 border-0 rounded input-tedad px-4 tedadd"
+                        style="width: 5rem"
+                      ></div>
+                      <!-- type="text" id="tedad"
+                        class="col-3 border-0 rounded input-tedad"
+                      /> -->
+                      <button
+                        id="minus-button"
+                        class="bg-danger rounded minus-btn"
+                      >
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/minus.png"
+                          class="minus-img"
+                        />
+                      </button>
+                    </div>
+                    <div id="first-price" class="fs-4 first-pric">0 تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------- -->
+          <div class="card mb-2 rtl food-box" style="width: 325px">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="./HW9-tamrin2-1-assets/img/hamburger.png"
+                  class="img-fluid rounded-start img-food"
+                  alt="burger"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">
+                    همبرگر مخصوص با قارچ و پنیر
+                  </h5>
+                  <div class="d-flex justify-content-start">
+                    <div
+                      id="p-price"
+                      class="card-text fs-4 ps-2 price"
+                      value="20000"
+                    >
+                      20000
+                    </div>
+                    <p class="fs-4">تومان</p>
+                  </div>
+                  <div class="d-flex justify-content-between div-price">
+                    <div class="d-flex">
+                      <button id="add-button" class="bg-danger rounded add-btn">
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/add.png"
+                          class="add-img"
+                        />
+                      </button>
+                      <div
+                        id="tedad"
+                        class="col-3 border-0 rounded input-tedad px-4 tedadd"
+                        style="width: 5rem"
+                      ></div>
+                      <!-- type="text" id="tedad"
+                        class="col-3 border-0 rounded input-tedad"
+                      /> -->
+                      <button
+                        id="minus-button"
+                        class="bg-danger rounded minus-btn"
+                      >
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/minus.png"
+                          class="minus-img"
+                        />
+                      </button>
+                    </div>
+                    <div id="first-price" class="fs-4 first-pric">0 تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- -------------row3------------- -->
+        <div class="d-flex justify-content-between mb-4">
+          <div class="card mb-2 rtl food-box" style="width: 325px">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="./HW9-tamrin2-1-assets/img/french_fries.png"
+                  class="img-fluid rounded-start img-food"
+                  alt="burger"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">سیب زمینی سرخ کرده ویژه</h5>
+                  <p class="card-text fs-4 price">25000 تومان</p>
+                  <div class="d-flex justify-content-between div-price">
+                    <div class="d-flex">
+                      <button id="add-button" class="bg-danger rounded add-btn">
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/add.png"
+                          class="add-img"
+                        />
+                      </button>
+                      <div
+                        id="tedad"
+                        class="col-3 border-0 rounded input-tedad px-4 tedadd"
+                        style="width: 5rem"
+                      ></div>
+                      <!-- type="text" id="tedad"
+                        class="col-3 border-0 rounded input-tedad"
+                      /> -->
+                      <button
+                        id="minus-button"
+                        class="bg-danger rounded minus-btn"
+                      >
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/minus.png"
+                          class="minus-img"
+                        />
+                      </button>
+                    </div>
+                    <div id="first-price" class="fs-4 first-pric">0 تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------- -->
+          <div class="card mb-2 rtl food-box" style="width: 325px">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="./HW9-tamrin2-1-assets/img/french_fries.png"
+                  class="img-fluid rounded-start img-food"
+                  alt="burger"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">سیب زمینی سرخ کرده</h5>
+                  <p class="card-text fs-4 price">10000 تومان</p>
+                  <div class="d-flex justify-content-between div-price">
+                    <div class="d-flex">
+                      <button id="add-button" class="bg-danger rounded add-btn">
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/add.png"
+                          class="add-img"
+                        />
+                      </button>
+                      <div
+                        id="tedad"
+                        class="col-3 border-0 rounded input-tedad px-4 tedadd"
+                        style="width: 5rem"
+                      ></div>
+                      <!-- type="text" id="tedad"
+                        class="col-3 border-0 rounded input-tedad"
+                      /> -->
+                      <button
+                        id="minus-button"
+                        class="bg-danger rounded minus-btn"
+                      >
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/minus.png"
+                          class="minus-img"
+                        />
+                      </button>
+                    </div>
+                    <div id="first-price" class="fs-4 first-pric">0 تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------- -->
+        <div class="d-flex justify-content-between mb-4">
+          <div class="card mb-2 rtl food-box" style="width: 325px">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="./HW9-tamrin2-1-assets/img/soda.png"
+                  class="img-fluid rounded-start img-food"
+                  alt="burger"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">نوشابه رژیمی</h5>
+                  <p class="card-text fs-4 price">6000 تومان</p>
+                  <div class="d-flex justify-content-between div-price">
+                    <div class="d-flex">
+                      <button id="add-button" class="bg-danger rounded add-btn">
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/add.png"
+                          class="add-img"
+                        />
+                      </button>
+                      <div
+                        id="tedad"
+                        class="col-3 border-0 rounded input-tedad px-4 tedadd"
+                        style="width: 5rem"
+                      ></div>
+                      <!-- type="text" id="tedad"
+                        class="col-3 border-0 rounded input-tedad"
+                      /> -->
+                      <button
+                        id="minus-button"
+                        class="bg-danger rounded minus-btn"
+                      >
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/minus.png"
+                          class="minus-img"
+                        />
+                      </button>
+                    </div>
+                    <div id="first-price" class="fs-4 first-pric">0 تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------- -->
+          <div class="card mb-2 rtl food-box" style="width: 325px">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="./HW9-tamrin2-1-assets/img/soda.png"
+                  class="img-fluid rounded-start img-food"
+                  alt="burger"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">نوشابه</h5>
+                  <p class="card-text fs-4 price">5000 تومان</p>
+                  <div class="d-flex justify-content-between div-price">
+                    <div class="d-flex">
+                      <button id="add-button" class="bg-danger rounded add-btn">
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/add.png"
+                          class="add-img"
+                        />
+                      </button>
+                      <div
+                        id="tedad"
+                        class="col-3 border-0 rounded input-tedad px-4 tedadd"
+                        style="width: 5rem"
+                      ></div>
+                      <!-- type="text" id="tedad"
+                        class="col-3 border-0 rounded input-tedad"
+                      /> -->
+                      <button
+                        id="minus-button"
+                        class="bg-danger rounded minus-btn"
+                      >
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/minus.png"
+                          class="minus-img"
+                        />
+                      </button>
+                    </div>
+                    <div id="first-price" class="fs-4 first-pric">0 تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------- -->
+        <div class="d-flex justify-content-between mb-4">
+          <div class="card mb-2 rtl food-box" style="width: 325px">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="./HW9-tamrin2-1-assets/img/salad.png"
+                  class="img-fluid rounded-start img-food"
+                  alt="burger"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">سالاد فصل</h5>
+                  <p class="card-text fs-4 price">8000 تومان</p>
+                  <div class="d-flex justify-content-between div-price">
+                    <div class="d-flex">
+                      <button id="add-button" class="bg-danger rounded add-btn">
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/add.png"
+                          class="add-img"
+                        />
+                      </button>
+                      <div
+                        id="tedad"
+                        class="col-3 border-0 rounded input-tedad px-4 tedadd"
+                        style="width: 5rem"
+                      ></div>
+                      <!-- type="text" id="tedad"
+                        class="col-3 border-0 rounded input-tedad"
+                      /> -->
+                      <button
+                        id="minus-button"
+                        class="bg-danger rounded minus-btn"
+                      >
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/minus.png"
+                          class="minus-img"
+                        />
+                      </button>
+                    </div>
+                    <div id="first-price" class="fs-4 first-pric">0 تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------- -->
+          <div class="card mb-2 rtl food-box" style="width: 325px">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="./HW9-tamrin2-1-assets/img/ceasar.png"
+                  class="img-fluid rounded-start img-food"
+                  alt="burger"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">سالاد سزار</h5>
+                  <p class="card-text fs-4 price">25000 تومان</p>
+                  <div class="d-flex justify-content-between div-price">
+                    <div class="d-flex">
+                      <button id="add-button" class="bg-danger rounded add-btn">
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/add.png"
+                          class="add-img"
+                        />
+                      </button>
+                      <div
+                        id="tedad"
+                        class="col-3 border-0 rounded input-tedad px-4 tedadd"
+                        style="width: 5rem"
+                      ></div>
+                      <!-- type="text" id="tedad"
+                        class="col-3 border-0 rounded input-tedad"
+                      /> -->
+                      <button
+                        id="minus-button"
+                        class="bg-danger rounded minus-btn"
+                      >
+                        <img
+                          src="./HW9-tamrin2-1-assets/img/minus.png"
+                          class="minus-img"
+                        />
+                      </button>
+                    </div>
+                    <div id="first-price" class="fs-4 first-pric">0 تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="sec-2 card p-5 rounded-5 d-flex">
+        <div class="d-flex justify-content-lg-between">
+          <p class="fs-4">جمع کل سفارشات:</p>
+          <div id="total-price" class="fs-4">0 تومان</div>
+        </div>
+        <div class="d-flex justify-content-lg-between">
+          <p class="fs-4">حق سرویس و کارمزد:</p>
+          <div id="service" class="fs-4">0 تومان</div>
+        </div>
+
+        <div class="d-flex justify-content-lg-between mb-4">
+          <p class="fs-4 m">تخفیف:</p>
+          <div id="off" class="fs-4">0 درصد</div>
+        </div>
+
+        <div>
+          <input
+            id="off-code"
+            type="text"
+            class="col-lg-10 border-0 rounded input-off"
+            placeholder="کد تخفیف"
+          />
+          <button id="tick" class="bg-danger rounded tick-btn mb-xl-5">
+            <img class="tick-img" src="./HW9-tamrin2-1-assets/img/tick.png" />
+          </button>
+
+          <div
+            class="p-2 bg-warning d-flex rounded justify-content-lg-between mb-4"
+          >
+            <p class="fs-4 fw-bolder">مبلغ قابل پرداخت:</p>
+            <div id="end-price" class="fs-4 fw-bolder">0 تومان</div>
+          </div>
+          <button
+            id="submit"
+            type="button"
+            class="btn btn-danger w-100 py-3 fs-3"
+          >
+            ثبت سفارش
+          </button>
+        </div>
+      </div>
+      <div
+        id="modal-box"
+        class="rounded bg-primary-subtle text-dark fs-3 fw-bold p-2 align-items-center mymodal"
+      >
+        <p>سفارش شما ثبت شد</p>
+
+        <button
+          id="taiid-nahaii"
+          type="button"
+          class="btn btn-danger border-0 fs-4 taiid"
+        >
+          تایید
+        </button>
+      </div>
+    </main>
+    <script src="./bootstrap.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
