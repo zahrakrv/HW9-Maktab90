@@ -43,7 +43,7 @@ function liMaker() {
       ul.appendChild(li);
     } else if (
       liContent == "" ||
-      document.onkeyup((e) => {
+      document.onKeyup((e) => {
         if (e.key == "Escape") return true;
       })
     ) {
